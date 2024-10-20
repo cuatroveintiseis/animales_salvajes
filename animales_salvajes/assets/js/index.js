@@ -20,8 +20,8 @@ function click() {
             console.log(datosAnimal);
 
 
-            const imagenActual = `/assets/imgs/${datosAnimal.imagen}`;
-            const sonidoActual = `/assets/sounds/${datosAnimal.sonido}`;
+            const imagenActual = `assets/imgs/${datosAnimal.imagen}`;
+            const sonidoActual = `assets/sounds/${datosAnimal.sonido}`;
 
             console.log(imagenActual);
             const animal = new animalList[nombreAnimal](nombreAnimal, edadAnimal, imagenActual, comentariosAnimal, sonidoActual);

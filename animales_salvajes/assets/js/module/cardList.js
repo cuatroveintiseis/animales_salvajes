@@ -5,7 +5,8 @@ export function cardList(animalData) {
 
 ${animal._nombre}<br>
 
-<img class="card-img" src:"${animal._imagen}"><br>
+<img class="card-img" src="${animal._img}">
+<br>
 
 
         </div>
